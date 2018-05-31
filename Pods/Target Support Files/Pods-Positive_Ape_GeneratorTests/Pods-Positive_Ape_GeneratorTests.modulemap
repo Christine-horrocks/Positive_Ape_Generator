@@ -1,0 +1,6 @@
+framework module Pods_Positive_Ape_GeneratorTests {
+  umbrella header "Pods-Positive_Ape_GeneratorTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

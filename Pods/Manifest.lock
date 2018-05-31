@@ -1,0 +1,16 @@
+PODS:
+  - SwiftGifOrigin (1.6.1)
+
+DEPENDENCIES:
+  - SwiftGifOrigin (~> 1.6.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SwiftGifOrigin
+
+SPEC CHECKSUMS:
+  SwiftGifOrigin: d6679d3ebe9df2e049a84bc52582635107b581f6
+
+PODFILE CHECKSUM: ab44dc04223828a7afcbf7ae073f833026760069
+
+COCOAPODS: 1.5.3

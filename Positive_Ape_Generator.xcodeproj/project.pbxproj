@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		128F70F94B5D0581FCC58263 /* Pods_Positive_Ape_GeneratorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FCDAB836915C8CD1F1CEFD /* Pods_Positive_Ape_GeneratorUITests.framework */; };
+		4D523411DD2311B9C876C5A6 /* Pods_Positive_Ape_Generator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6085CD915AB4F0BD1FF71E8F /* Pods_Positive_Ape_Generator.framework */; };
 		CB131D591FD1991500503223 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB131D581FD1991500503223 /* AppDelegate.swift */; };
 		CB131D5B1FD1991500503223 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB131D5A1FD1991500503223 /* ViewController.swift */; };
 		CB131D5E1FD1991500503223 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB131D5C1FD1991500503223 /* Main.storyboard */; };
@@ -14,6 +16,19 @@
 		CB131D631FD1991500503223 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB131D611FD1991500503223 /* LaunchScreen.storyboard */; };
 		CB131D6E1FD1991600503223 /* Positive_Ape_GeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB131D6D1FD1991600503223 /* Positive_Ape_GeneratorTests.swift */; };
 		CB131D791FD1991600503223 /* Positive_Ape_GeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB131D781FD1991600503223 /* Positive_Ape_GeneratorUITests.swift */; };
+		D544DF4963A6217F685BFC4E /* Pods_Positive_Ape_GeneratorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74DC98B43BE1B7BF4BCB98F3 /* Pods_Positive_Ape_GeneratorTests.framework */; };
+		FE86543C20C037AF00744037 /* gib_bridge.gif in Resources */ = {isa = PBXBuildFile; fileRef = FE86543B20C037AF00744037 /* gib_bridge.gif */; };
+		FE86543E20C037BE00744037 /* orang_tig.gif in Resources */ = {isa = PBXBuildFile; fileRef = FE86543D20C037BE00744037 /* orang_tig.gif */; };
+		FE86544220C037E000744037 /* gib_cat.gif in Resources */ = {isa = PBXBuildFile; fileRef = FE86544120C037E000744037 /* gib_cat.gif */; };
+		FE86544420C037FD00744037 /* gib_hug.gif in Resources */ = {isa = PBXBuildFile; fileRef = FE86544320C037FD00744037 /* gib_hug.gif */; };
+		FE86544620C03DD000744037 /* panda.gif in Resources */ = {isa = PBXBuildFile; fileRef = FE86544520C03DD000744037 /* panda.gif */; };
+		FE86544820C03DE400744037 /* sloth.gif in Resources */ = {isa = PBXBuildFile; fileRef = FE86544720C03DE400744037 /* sloth.gif */; };
+		FE86544A20C03E0000744037 /* chimp.gif in Resources */ = {isa = PBXBuildFile; fileRef = FE86544920C03E0000744037 /* chimp.gif */; };
+		FE86544C20C03E1800744037 /* baby_orang.gif in Resources */ = {isa = PBXBuildFile; fileRef = FE86544B20C03E1800744037 /* baby_orang.gif */; };
+		FE86544E20C03E4100744037 /* happy_orang.gif in Resources */ = {isa = PBXBuildFile; fileRef = FE86544D20C03E4100744037 /* happy_orang.gif */; };
+		FE86545020C03E5900744037 /* hamock.gif in Resources */ = {isa = PBXBuildFile; fileRef = FE86544F20C03E5900744037 /* hamock.gif */; };
+		FEC9B67E20C00F21008BD1CE /* Swift+gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC9B67D20C00F21008BD1CE /* Swift+gif.swift */; };
+		FEC9B68020C01352008BD1CE /* giphy.gif in Resources */ = {isa = PBXBuildFile; fileRef = FEC9B67F20C01352008BD1CE /* giphy.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +49,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08FCDAB836915C8CD1F1CEFD /* Pods_Positive_Ape_GeneratorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Positive_Ape_GeneratorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6085CD915AB4F0BD1FF71E8F /* Pods_Positive_Ape_Generator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Positive_Ape_Generator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		744D4E03AB11BF76D30C1A0F /* Pods-Positive_Ape_Generator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Positive_Ape_Generator.release.xcconfig"; path = "Pods/Target Support Files/Pods-Positive_Ape_Generator/Pods-Positive_Ape_Generator.release.xcconfig"; sourceTree = "<group>"; };
+		74DC98B43BE1B7BF4BCB98F3 /* Pods_Positive_Ape_GeneratorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Positive_Ape_GeneratorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88AA3114624C5C02AC889F5F /* Pods-Positive_Ape_GeneratorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Positive_Ape_GeneratorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Positive_Ape_GeneratorUITests/Pods-Positive_Ape_GeneratorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A852D90DB84D7BECC25A5A44 /* Pods-Positive_Ape_GeneratorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Positive_Ape_GeneratorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Positive_Ape_GeneratorTests/Pods-Positive_Ape_GeneratorTests.release.xcconfig"; sourceTree = "<group>"; };
+		BEFB875316F092899E9C10BD /* Pods-Positive_Ape_GeneratorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Positive_Ape_GeneratorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Positive_Ape_GeneratorTests/Pods-Positive_Ape_GeneratorTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CB131D551FD1991500503223 /* Positive_Ape_Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Positive_Ape_Generator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB131D581FD1991500503223 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB131D5A1FD1991500503223 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +69,20 @@
 		CB131D741FD1991600503223 /* Positive_Ape_GeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Positive_Ape_GeneratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB131D781FD1991600503223 /* Positive_Ape_GeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Positive_Ape_GeneratorUITests.swift; sourceTree = "<group>"; };
 		CB131D7A1FD1991600503223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7D2D5E703239622AC8591B5 /* Pods-Positive_Ape_GeneratorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Positive_Ape_GeneratorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Positive_Ape_GeneratorUITests/Pods-Positive_Ape_GeneratorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FA26B878351B480DA072671E /* Pods-Positive_Ape_Generator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Positive_Ape_Generator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Positive_Ape_Generator/Pods-Positive_Ape_Generator.debug.xcconfig"; sourceTree = "<group>"; };
+		FE86543B20C037AF00744037 /* gib_bridge.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gib_bridge.gif; sourceTree = "<group>"; };
+		FE86543D20C037BE00744037 /* orang_tig.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = orang_tig.gif; sourceTree = "<group>"; };
+		FE86544120C037E000744037 /* gib_cat.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gib_cat.gif; sourceTree = "<group>"; };
+		FE86544320C037FD00744037 /* gib_hug.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gib_hug.gif; sourceTree = "<group>"; };
+		FE86544520C03DD000744037 /* panda.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = panda.gif; sourceTree = "<group>"; };
+		FE86544720C03DE400744037 /* sloth.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sloth.gif; sourceTree = "<group>"; };
+		FE86544920C03E0000744037 /* chimp.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = chimp.gif; sourceTree = "<group>"; };
+		FE86544B20C03E1800744037 /* baby_orang.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = baby_orang.gif; sourceTree = "<group>"; };
+		FE86544D20C03E4100744037 /* happy_orang.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = happy_orang.gif; sourceTree = "<group>"; };
+		FE86544F20C03E5900744037 /* hamock.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = hamock.gif; sourceTree = "<group>"; };
+		FEC9B67D20C00F21008BD1CE /* Swift+gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift+gif.swift"; sourceTree = "<group>"; };
+		FEC9B67F20C01352008BD1CE /* giphy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = giphy.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D523411DD2311B9C876C5A6 /* Pods_Positive_Ape_Generator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D544DF4963A6217F685BFC4E /* Pods_Positive_Ape_GeneratorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +106,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				128F70F94B5D0581FCC58263 /* Pods_Positive_Ape_GeneratorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51E300BF912EA580086B75ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6085CD915AB4F0BD1FF71E8F /* Pods_Positive_Ape_Generator.framework */,
+				74DC98B43BE1B7BF4BCB98F3 /* Pods_Positive_Ape_GeneratorTests.framework */,
+				08FCDAB836915C8CD1F1CEFD /* Pods_Positive_Ape_GeneratorUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96BFA055EB1E548A1CE7FC8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA26B878351B480DA072671E /* Pods-Positive_Ape_Generator.debug.xcconfig */,
+				744D4E03AB11BF76D30C1A0F /* Pods-Positive_Ape_Generator.release.xcconfig */,
+				BEFB875316F092899E9C10BD /* Pods-Positive_Ape_GeneratorTests.debug.xcconfig */,
+				A852D90DB84D7BECC25A5A44 /* Pods-Positive_Ape_GeneratorTests.release.xcconfig */,
+				88AA3114624C5C02AC889F5F /* Pods-Positive_Ape_GeneratorUITests.debug.xcconfig */,
+				E7D2D5E703239622AC8591B5 /* Pods-Positive_Ape_GeneratorUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CB131D4C1FD1991500503223 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +143,8 @@
 				CB131D6C1FD1991600503223 /* Positive_Ape_GeneratorTests */,
 				CB131D771FD1991600503223 /* Positive_Ape_GeneratorUITests */,
 				CB131D561FD1991500503223 /* Products */,
+				96BFA055EB1E548A1CE7FC8B /* Pods */,
+				51E300BF912EA580086B75ED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +164,18 @@
 				CB131D581FD1991500503223 /* AppDelegate.swift */,
 				CB131D5A1FD1991500503223 /* ViewController.swift */,
 				CB131D5C1FD1991500503223 /* Main.storyboard */,
+				FEC9B67D20C00F21008BD1CE /* Swift+gif.swift */,
+				FEC9B67F20C01352008BD1CE /* giphy.gif */,
+				FE86544920C03E0000744037 /* chimp.gif */,
+				FE86543B20C037AF00744037 /* gib_bridge.gif */,
+				FE86544120C037E000744037 /* gib_cat.gif */,
+				FE86544D20C03E4100744037 /* happy_orang.gif */,
+				FE86544F20C03E5900744037 /* hamock.gif */,
+				FE86543D20C037BE00744037 /* orang_tig.gif */,
+				FE86544720C03DE400744037 /* sloth.gif */,
+				FE86544B20C03E1800744037 /* baby_orang.gif */,
+				FE86544520C03DD000744037 /* panda.gif */,
+				FE86544320C037FD00744037 /* gib_hug.gif */,
 				CB131D5F1FD1991500503223 /* Assets.xcassets */,
 				CB131D611FD1991500503223 /* LaunchScreen.storyboard */,
 				CB131D641FD1991500503223 /* Info.plist */,
@@ -132,9 +208,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB131D7D1FD1991600503223 /* Build configuration list for PBXNativeTarget "Positive_Ape_Generator" */;
 			buildPhases = (
+				C271E845B2BEB4EEC533F015 /* [CP] Check Pods Manifest.lock */,
 				CB131D511FD1991500503223 /* Sources */,
 				CB131D521FD1991500503223 /* Frameworks */,
 				CB131D531FD1991500503223 /* Resources */,
+				95BAA5FCB1BB0914C9A89561 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +227,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB131D801FD1991600503223 /* Build configuration list for PBXNativeTarget "Positive_Ape_GeneratorTests" */;
 			buildPhases = (
+				D2AB4324309F4FAAC699C712 /* [CP] Check Pods Manifest.lock */,
 				CB131D651FD1991600503223 /* Sources */,
 				CB131D661FD1991600503223 /* Frameworks */,
 				CB131D671FD1991600503223 /* Resources */,
@@ -167,6 +246,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB131D831FD1991600503223 /* Build configuration list for PBXNativeTarget "Positive_Ape_GeneratorUITests" */;
 			buildPhases = (
+				525C1C81E859E221DF50EBD1 /* [CP] Check Pods Manifest.lock */,
 				CB131D701FD1991600503223 /* Sources */,
 				CB131D711FD1991600503223 /* Frameworks */,
 				CB131D721FD1991600503223 /* Resources */,
@@ -188,7 +268,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Christine Horrocks";
 				TargetAttributes = {
 					CB131D541FD1991500503223 = {
@@ -232,9 +312,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE86544220C037E000744037 /* gib_cat.gif in Resources */,
+				FE86544420C037FD00744037 /* gib_hug.gif in Resources */,
+				FE86545020C03E5900744037 /* hamock.gif in Resources */,
 				CB131D631FD1991500503223 /* LaunchScreen.storyboard in Resources */,
+				FE86543E20C037BE00744037 /* orang_tig.gif in Resources */,
 				CB131D601FD1991500503223 /* Assets.xcassets in Resources */,
+				FEC9B68020C01352008BD1CE /* giphy.gif in Resources */,
+				FE86544A20C03E0000744037 /* chimp.gif in Resources */,
+				FE86544820C03DE400744037 /* sloth.gif in Resources */,
+				FE86544C20C03E1800744037 /* baby_orang.gif in Resources */,
 				CB131D5E1FD1991500503223 /* Main.storyboard in Resources */,
+				FE86543C20C037AF00744037 /* gib_bridge.gif in Resources */,
+				FE86544620C03DD000744037 /* panda.gif in Resources */,
+				FE86544E20C03E4100744037 /* happy_orang.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,12 +345,88 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		525C1C81E859E221DF50EBD1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Positive_Ape_GeneratorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95BAA5FCB1BB0914C9A89561 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Positive_Ape_Generator/Pods-Positive_Ape_Generator-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftGifOrigin/SwiftGifOrigin.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftGifOrigin.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Positive_Ape_Generator/Pods-Positive_Ape_Generator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C271E845B2BEB4EEC533F015 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Positive_Ape_Generator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2AB4324309F4FAAC699C712 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Positive_Ape_GeneratorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CB131D511FD1991500503223 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CB131D5B1FD1991500503223 /* ViewController.swift in Sources */,
+				FEC9B67E20C00F21008BD1CE /* Swift+gif.swift in Sources */,
 				CB131D591FD1991500503223 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -329,6 +496,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -336,6 +504,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -386,6 +555,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -393,6 +563,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -424,6 +595,7 @@
 		};
 		CB131D7E1FD1991600503223 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA26B878351B480DA072671E /* Pods-Positive_Ape_Generator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +611,7 @@
 		};
 		CB131D7F1FD1991600503223 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 744D4E03AB11BF76D30C1A0F /* Pods-Positive_Ape_Generator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +627,7 @@
 		};
 		CB131D811FD1991600503223 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEFB875316F092899E9C10BD /* Pods-Positive_Ape_GeneratorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +645,7 @@
 		};
 		CB131D821FD1991600503223 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A852D90DB84D7BECC25A5A44 /* Pods-Positive_Ape_GeneratorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +663,7 @@
 		};
 		CB131D841FD1991600503223 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88AA3114624C5C02AC889F5F /* Pods-Positive_Ape_GeneratorUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +680,7 @@
 		};
 		CB131D851FD1991600503223 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7D2D5E703239622AC8591B5 /* Pods-Positive_Ape_GeneratorUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

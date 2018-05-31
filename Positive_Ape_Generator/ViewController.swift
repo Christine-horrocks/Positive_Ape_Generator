@@ -17,7 +17,12 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+//        let randomGifs = ["giphy", "gib_bridge", "gib_cat", "orang_tig", "gib_hug"]
+//        let randomGif = Int(arc4random_uniform(UInt32(randomGifs.count)))
+//        let gif = UIImage.gif(name: randomGifs[randomGif])
+//
+//         happyApe.image = gif
     }
 
     override func didReceiveMemoryWarning() {
@@ -28,15 +33,23 @@ class ViewController: UIViewController {
     
     @IBAction func shuffle(_ sender: Any) {
         
-        let randomApe = arc4random_uniform(21)
-        
-        let randomMessages = ["You can do it!", "Just stand up!", "I believe in you", "Reach around", "Go on", "That's it!", "Trust your feet", "Ooh, that is sketchy", "Flexy!", "Toes to tits", "Yes, that's it", "Chanel your inner ape", "Go Tom!", "You're the best", "Whoop Whoop", "Allez!", "Rock over", "Just a bit further", "Grab the crack", "Pinch it!", "Nice guns ;-)"]
-        
+        let randomMessages = ["You can do it!", "Just stand up!", "I believe in you", "Reach around", "Go on", "That's it!", "Trust your feet", "Ooh, that is sketchy", "Flexy!", "Toes to tits", "Yes, that's it", "Chanel your inner ape", "Go Tom!", "You're the best", "Whoop Whoop", "Allez!", "Rock over", "Just a bit further", "Grab the crack", "Pinch it!", "Nice guns ;-)", "OOOOOoooooooo"]
         let randomMessage = Int(arc4random_uniform(UInt32(randomMessages.count)))
         
+        let randomApe = arc4random_uniform(21)
+        let image = UIImage(named: "ape\(randomApe)")
+        
+        let randomGifs = ["giphy", "gib_bridge", "gib_cat", "orang_tig", "gib_hug", "chimp", "happy_orang", "hamock", "sloth", "baby_orang", "panda"]
+        let randomGif = Int(arc4random_uniform(UInt32(randomGifs.count)))
+        let gif = UIImage.gif(name: randomGifs[randomGif])
+    
+        let media = [gif, image]
+        let randomMedia = Int(arc4random_uniform(UInt32(media.count)))
+        let medium = media[randomMedia]
+        
+        happyApe.image = medium
         inspirationalMessage.text = randomMessages[randomMessage]
         
-        happyApe.image = UIImage(named: "ape\(randomApe)")
     }
     
 
